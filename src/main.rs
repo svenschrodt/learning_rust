@@ -10,13 +10,15 @@
  * @copyright Sven Schrodt <sven@schrodt-service.net>
  */
 
- mod variables;
-//mod print;
+//mod output;
+mod variables;
 // mod primitives;
 //mod sequences;
 
 fn main() {
     // print::run();
-    //primitives::run();
     variables::run();
+    //primitives::run();
+    
+     //primitives::run();
 }

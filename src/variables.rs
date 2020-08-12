@@ -3,6 +3,7 @@
  * 
  * 
  * Lesson goals: 
+ * 
  * - By default variables in Rust are immutable 🤣 - it's a feature, we will see that l8er
  * - Variables are holding primitive data or references to data Variables 
  * - Rust variables are block-scoped {Rust in general is block-scoped}
@@ -34,7 +35,7 @@ pub fn run() {
   const ID: i32 = 1010;
   println!("ID: {}", ID);
 
-//  Defining a constant with explicit type declaration as float 
+  //  Defining a constant with explicit type declaration as float 
   const PI:f32 = 3.14;           
 
   println!("PI: {}", PI);
