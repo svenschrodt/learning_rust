@@ -14,7 +14,7 @@ First steps with rustlang - nothing special 2c here, guys;-)
 ## Remote DEV helper environment 
 
 - https://github.com/svenschrodt/https://github.com/svenschrodt/learning_rust
- -https://travis-ci.org/github/svenschrodt/https://github.com/svenschrodt/learning_rust
+- https://travis-ci.org/github/svenschrodt/https://github.com/svenschrodt/learning_rust
 
 ### Building with Cargo
 
