@@ -1,5 +1,9 @@
 /**
- * Main function testing included modules' functionalities
+ * Public module testing usage of sequence data typs in rust, such as:
+ * 
+ * - Tuple,
+ * - Array and 
+ * - Sclice
  * 
  * @package learning_rust
  * @version 0.1
@@ -10,13 +14,11 @@
  * @copyright Sven Schrodt <sven@schrodt-service.net>
  */
 
- mod variables;
-//mod print;
-// mod primitives;
-//mod sequences;
+ // Arrays in Rust are fixed size list with elements of same data types
 
-fn main() {
-    // print::run();
-    //primitives::run();
-    variables::run();
-}
+
+use std::mem;
+pub fn run() {
+
+   
+  }

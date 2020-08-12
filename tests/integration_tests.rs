@@ -1,5 +1,5 @@
 /**
- * Main function testing included modules' functionalities
+ * Integration testing for current package
  * 
  * @package learning_rust
  * @version 0.1
@@ -10,13 +10,4 @@
  * @copyright Sven Schrodt <sven@schrodt-service.net>
  */
 
- mod variables;
-//mod print;
-// mod primitives;
-//mod sequences;
-
-fn main() {
-    // print::run();
-    //primitives::run();
-    variables::run();
-}
+ // tbd
