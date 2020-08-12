@@ -3,9 +3,9 @@ First steps with rustlang - nothing special 2c here, guys;-)
 
 ## Currently used environment
 - Linux 5.4.0-42-generic
-- rustc 1.45.0 (5c1f21c3b 2020-07-13)
+- rustc 1.45.0 
 - cargo 1.45.0 
-- rls 1.41.0 (085f24b 2020-05-28)
+- rls 1.41.0
 - git version 2.17.1
 - Visual Studio Code Version: 1.47.3 Linux {@see[1]}
 

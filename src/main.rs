@@ -11,14 +11,14 @@
  */
 
 //mod output;
-mod variables;
+//mod variables;
 // mod primitives;
-//mod sequences;
+mod sequences;
 
 fn main() {
     // print::run();
-    variables::run();
-    //primitives::run();
+    // variables::run();
+    // primitives::run();
     
-     //primitives::run();
+     sequences::run();
 }
