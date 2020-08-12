@@ -1,5 +1,5 @@
 /**
- * Public module testing usage of sequence data typs in rust, such as:
+ * Public module testing usage of sequence data types in rust, such as:
  *
  * - Tuple,
  * - Array and
@@ -49,7 +49,7 @@ pub fn run() {
 
   // @see https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html
   // starting_index is the first position in the slice -> as expected
-  // ending_index is one more than the last position in the slice -> WTF  🤔
+  // ending_index is *one more* than the last position in the slice -> WTF  🤔
 
   println!("Slice: {:?}", slice);
 }

@@ -5,6 +5,7 @@
  * Lesson goals: 
  * 
  * - By default variables in Rust are immutable 🤣 - it's a feature, we will see that l8er
+ *  --> Do NOT make a variable mutable, unless you will reassign its value!
  * - Variables are holding primitive data or references to data Variables 
  * - Rust variables are block-scoped {Rust in general is block-scoped}
  * - variable names in Rust are - *by convention* - named /under_scored/, rather than /camelCased/
