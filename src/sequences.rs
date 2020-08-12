@@ -42,7 +42,7 @@ pub fn run() {
   println!("Array Length: {}", my_numbers.len());
 
   // Let's have a look at its memory usage
-  println!("Array occupies {} bytes", mem::size_of_val(&my_numbers));
+  println!("Array is using {} bytes", mem::size_of_val(&my_numbers));
 
   // Getting an array Slice
   let slice: &[i32] = &my_numbers[2..4];
