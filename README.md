@@ -37,7 +37,7 @@ First steps with rustlang - nothing special 2c here, guys;-)
 - 2020-08-12 - work with sequence data types {'sequences.rs'}
 - 2020-08-12 - work with enumertion types {'enums.rs'}
 
-## Appendix
+# Appendix
 
 [1] Not kidding, the VSC integration of rust (with rls, cargo etc.) is so much easier & better than the mess with Eclipse - even performance and stability are convincing on an old notebook from 2009 with just 4 GB RAM! 
 Sorry Eric, thanks to Redmond! 
