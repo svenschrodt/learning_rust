@@ -1,13 +1,20 @@
 # learning_rust
 First steps with rustlang - nothing special 2c here, guys;-)
 
-## Currently used environment
+# Environment 
+
+## local DEV environment
 - Linux 5.4.0-42-generic
 - rustc 1.45.0 
 - cargo 1.45.0 
 - rls 1.41.0
 - git version 2.17.1
 - Visual Studio Code Version: 1.47.3 Linux {@see[1]}
+
+## Remote DEV helper environment 
+
+- https://github.com/svenschrodt/https://github.com/svenschrodt/learning_rust
+ -https://travis-ci.org/github/svenschrodt/https://github.com/svenschrodt/learning_rust
 
 ### Building with Cargo
 
@@ -28,6 +35,7 @@ First steps with rustlang - nothing special 2c here, guys;-)
 - 2020-08-12 - using variables constants {'variables.rs'}
 - 2020-08-12 - work with primitive data types {'primitives.rs'}
 - 2020-08-12 - work with sequence data types {'sequences.rs'}
+- 2020-08-12 - work with enumertion types {'enums.rs'}
 
 ## Appendix
 

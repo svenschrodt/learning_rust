@@ -14,12 +14,15 @@
 //mod variables;
 // mod primitives;
 
-mod sequences;
+//mod sequences;
+
+mod enums;
 
 fn main() {
     // print::run();
     // variables::run();
     // primitives::run();
     
-     sequences::run();
+    // sequences::run();
+    enums::run();
 }
