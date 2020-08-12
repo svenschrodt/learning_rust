@@ -13,9 +13,7 @@
  * @see https://travis-ci.org/github/svenschrodt/https://github.com/svenschrodt/learning_rust
  * @copyright Sven Schrodt <sven@schrodt-service.net>
  */
-
- // For getting allocated memory (module from std lib)
-
+// For getting allocated memory (module from std lib)
 use std::mem;
 
 pub fn run() {
@@ -43,10 +41,15 @@ pub fn run() {
   // Get length of an array
   println!("Array Length: {}", my_numbers.len());
 
-  // Arrays are stack allocated
+  // Let's have a look at its memory usage
   println!("Array occupies {} bytes", mem::size_of_val(&my_numbers));
 
   // Getting an array Slice
   let slice: &[i32] = &my_numbers[2..4];
+
+  // @see https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html
+  // starting_index is the first position in the slice -> as expected
+  // ending_index is one more than the last position in the slice -> WTF  🤔
+
   println!("Slice: {:?}", slice);
 }
