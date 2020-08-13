@@ -16,7 +16,9 @@
 
 //mod sequences;
 
-mod enums;
+//mod enums;
+
+mod alphabetic;
 
 fn main() {
     // print::run();
@@ -24,5 +26,6 @@ fn main() {
     // primitives::run();
     
     // sequences::run();
-    enums::run();
+    // enums::run();
+    alphabetic::run();
 }

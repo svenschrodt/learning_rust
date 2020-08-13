@@ -27,18 +27,20 @@
 
  pub fn run() {
 
-    // Character type exmples
+    // Character type examples
 
     // Defining a character --> note the single quotes
-   
-   
+      
     let why = 'w';
+    println!("{}", why);
     let at = '@';
-    // Definiing a UNICODE character by its literal
-    let savoring_food =23 '😋';
-    // Defining a character by its UNICODE { U+1F923 => 'rolling on the floor laughing'}
+    println!("{}", at);
+    // Defining a UNICODE character by its literal
+    let savoring_food = '😋';
+    println!("{}", savoring_food);
+    // Defining a character by its UNICODE {U+1F923 => 'rolling on the floor laughing'}
     let rotfl = '\u{1F923}';
 
 
-
+    println!("{}", rotfl);
  }
